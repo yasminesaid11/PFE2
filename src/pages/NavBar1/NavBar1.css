@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body5 .nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 10rem;
+  z-index: 1000;
+  text-align: center;
+  height: 5rem;
+
+}
+
+.body5 .nav .ul {
+  list-style: none;
+  padding-right: 5%;
+}
+
+.body5 .nav .li {
+  display: inline;
+  margin: 0 1rem;
+  color: #fff;
+  line-height: 65px;
+  font-size: 1.2rem;
+  
+
+}
+.body5 .nav .li a{
+  text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.2rem;
+}
+.body5 .nav .li a:hover{
+  color: #fff
+}
+.body5 .nav .menu-hamburger{
+  position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+    display: none;
+}
+
+/* Home section */
+
+
+
+
+  
+ 
+
+  
+  .header .shape svg path {
+    fill: #fff;
+  }
+  
+  @media (max-width: 1199.98px) {
+    .header .shape svg {
+      bottom: -15px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .header .shape svg {
+      bottom: 0;
+    }
+  }
+  
+ 
+  
+
+  
+ 
+
+  .click {
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-image: linear-gradient(195deg, #EC407A 100%, #D81B60 100%);
+    text-transform: uppercase;
+    color: #fff ; 
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .click:hover {
+    background-color:  #7b7674;
+    
+  }
+  @media screen and (max-width: 900px) {
+    
+    .body5 .nav {
+        position: absolute;
+        background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+        width: 100%;
+        height: 100vh;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .body5 .nav .menu-hamburger{
+      display: block;
+    }
+    .body5 .nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .body5 .nav ul li{
+      margin: 25px 0;
+      font-size: 1.2em;
+    }
+    
+ }
